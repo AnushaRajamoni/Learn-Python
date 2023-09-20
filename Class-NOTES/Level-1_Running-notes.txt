@@ -1,0 +1,129 @@
+PREBUILD METHODS
+=====================
+print()
+ord() chr()
+type() 
+len() -- > number of character/elements in a variable.
+id() --> displays memory address of a value or variable
+int() ---> str ---> int 
+float()  --> str ----> float 
+input()
+
+
+STATIC VS DYNAMIC 
+===================
+static languages: c , cpp , java 
+- <datatype> variableName = value;
+- we have to declare/define datatypes for values/variables manually 
+
+- Every Datatype will have fixed range /size .
+- 2^n-1 ----> + (2^n-1)-1
+
+
+datatypes
+===============
+int 
+short
+byte 
+float 
+double 
+long 
+- String
+- char 
+- boolean 
+
+dynamic languages:  javascript , python , ruby 
+=======================================================
+syntax:
+
+- variableName = value;
+- Type will be decide by intrepter on runtime based on the value. 
+
+- Do we have size constraint?- NO 
+
+
+Hacker Rank
+Hacker Earth
+LeetCode 
+
+###################################################################
+
+1. create a branch from main branch with your name
+2. Clone this into myPython 	
+	git clone -b "ur-brach-name" --single-branch https://github.com/anil-k-rajamoni18/Python-Discussion.git
+
+
+PUSH 
+===================
+git branch 
+git status
+git add . (all files)
+git add filName
+git commit -m "message"
+git push
+git push -u origin branch
+
+PULL
+==============
+git status
+git pull 
+
+
+
+
+
+### SUMMARY ###############
+
+- Py2 vs Py3
+- print() 
+- comments 
+- variables 
+	- rules 
+- input() 
+	- type casting 
+	- int() float() str() bool() list() set() dict() tuple()
+	
+- primitive datatypes 
+	- Number
+		integer , float , complex
+	- Text
+		strings 
+	- Boolean
+		bool
+	- None :
+		none 
+- Sequentials/ Collections
+	- LIST 
+		- properties 
+		- methods
+	- TUPLE 
+	- SET 
+	- DICTIONARY 
+	- STRING 
+		- formatting the string (3 ways)
+			- c based 
+			- str.format()
+			- f string 
+			
+- range() & slicing and indexing 
+- operators
+	types 
+	precendence
+	associativity
+	
+	
+### LEVEL-2 ############
+
+conditional statements 
+	if 
+	if else
+	if elif elif else # handling multiple conditions
+	if if if else
+	nested if else 
+	
+looping statements 
+	for loop
+	while loop
+	
+
+

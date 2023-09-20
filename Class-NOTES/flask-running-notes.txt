@@ -1,0 +1,142 @@
+what is module/library/package?
+	- set of python files , having predefined methods 
+	- we can utlize predefined methods for faster development.
+	ex: math , requests , pymongo
+	
+what is framework?
+	- provides support for building entire project.
+		- set of packages oor modules 
+			==> sub modules + classes + functions
+	- layer structure 
+	
+	- Python frameworks automate the implementation of several tasks and 
+		give developers a structure for application development.
+	
+
+PROJECT
+====
+UI : react-js , angular , 
+BE : java , python , ruby , rust , go 
+API: REST API , GRAPHQL API's
+DATABASE: SQL or NOSQL 
+MOINTORING : Elastic Search , Kibana 
+ARC: Client & Server , Monolithic , Mircroservices 
+API GATEWAY 
+CLOUD: AWS , AZURE , GCP 
+DEV-OPS: GITHUB(SCM) , JENKINS(CI/CD), Kubernetes (deployment)
+
+
+
+
+WEB - DEV 
+================
+html , css , js 
+framework: react, angular
+
+
+1. take the requirements and anlayse 
+2. UX UI persons : draw the prototype screens.
+3. F.END , develop the project 
+4. Integrate with BE 
+
+
+DYNAMIC ROUTING 
+======================
+@app.route('/student/<int:id>')
+def getStudent(name):
+	pass
+	
+	
+
+TEMPLATE ROUTING 
+============================
+
+- {{ url_for('method') }}
+
+
+JINJA2: python code in html 
+
+	variable : {{variables}}
+	for loop: 
+		{%for stud in students%}
+			body
+		{%endfor%}
+	if:
+		{%if  condition % }
+		
+ 		{%endif%}
+	
+## FLASK SQL ALCHEMY
+	ORM : Object relation model ..
+	
+	
+	
+
+### REST API WITH FLASK ################
+
+API URL : rocketrecipe.com/api/food/
+- GET  : 
+		/api/food/1
+		/api/foods
+		
+_ POST
+	/api/food 
+	/api/foods
+	
+- DELETE 
+	/api/food/1
+	
+- PUT 
+	/api/food/1
+	
+	
+	
+	
+	
+
+#################################
+
+Web Development Basics
+web Framework 
+	- Flask
+	- Django
+- Virtual env's 
+- Flask Hello World 
+- 
+Flask Routing 
+Flask Dynamic Routing 
+Flask Routing with Template 
+
+
+REST API with Flask , food-api 
+
+GET  /api/food/{id}
+POST /api/food
+DELETE /api/food/{id}
+PUT  /api/food/{id}
+
+
+REST API with Flask , todoList 
+DB : food_db
+coll: food_items
+
+GET  /api/todo/{id}
+POST /api/todo
+DELETE /api/todo/{id}
+PUT  /api/todo/{id}
+
+
+
+#####################################
+RENDER CLOUD DEPLOYMENT 
+1. create render account.
+2. push the application project floder into github new repo.
+3. connect repo with render account.
+
+note:  please include this module in requirements.txt
+		gunicorn==20.1.0
+
+
+
+################### MEME WEB-APP ##################
+ref : https://github.com/D3vd/Meme_Api

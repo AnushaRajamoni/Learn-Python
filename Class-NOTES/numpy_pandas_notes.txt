@@ -1,0 +1,165 @@
+os 
+sys
+random
+hashlib
+re
+smtp
+
+
+
+third-party modules
+------------------------
+
+mysql-connector
+requests
+pymongo
+flask 
+
+
+-------------- ML -----------------
+- math
+- stats
+- programming: python , R , scala , Mojo  
+- DB : MYSQL , NO SQL 
+
+modules
+----------------
+numpy
+pandas
+sklearn
+tensorflow
+keras
+
+- matplotlib
+- seaborn
+
+
+##NUMPY #############
+import numpy as np 
+
+np.array()  # numpy.ndarray ----> np.matrix
+	- ndmin
+	- dtype
+	- size
+	
+
+np.asarray()
+np.mat()
+np.matrix()
+np.asanyarray()
+np.copy
+np.fromfunction()
+np.fromiter()
+np.fromstring()
+np.reshape()
+
+
+np.arange(start,stop,step) #both int float values 
+np.linspace(start,stop,nums) 
+
+special methods
+=====================
+np.zeros()
+np.ones()
+np.eye()
+np.diag()
+np.sqrt()
+np.exp(()
+np.log10()
+np.fmod()
+
+
+random modle
+===================
+random.randint(startm,stop) 
+random.randrange(start,stop,step)
+random.random() 
+random.choice()
+random.shuffle()
+
+
+numpy random sub-module
+=========================
+numpy.random.rand(r,c) # uniform distribution
+numpy.random.randn() # stand normal distribution
+numpy.random.randint()
+
+
+datatypes:
+-------------------
+numpy.int16 32 64
+numpy.float16 32 64 
+
+
+
+
+PANDAS 
+==================
+
+import pandas as pd 
+
+pd.read_csv()
+pd.Categorical()
+pd.Series()
+pd.DataFrame()
+pd.concat()
+
+df.head()
+df.tail()
+df.describe()
+df.info() 
+df.isnull().sum()
+df.isnull().any()
+df.fillna()
+
+
+##attributes 
+df.types
+df.columns
+df.index 
+
+
+
+
+######### ML  ######################
+
+- Supervised Learning 
+	- Regression : predicting continous variable out comes 
+		- Linear Regression
+		- Multi Linear Regression
+		- RandomForest Regressor 
+		- SVM 
+		- Decision Tress Regressor 
+		
+	
+	- Classification: predicting the grops 
+		- Logistic Regression 
+		
+
+- UnSupervised Learning:
+	Clustering
+	Association/Dimentionality Reduction
+	
+Reinforcement Learning
+	
+
+
+
+REFERENCE LINKS 
+======================
+https://scikit-learn.org/
+
+
+HOW TO CREATE Virtual Env
+===============================
+1. python -m venv name-of-environment
+2. name-of-environment\Scripts\activate
+3. pip install -r requirements.txt
+
+
+HOW TO GENERATE requirements.txt
+===================================
+1. You should be in activated project environment
+2. pip freeze > requirements.txt
+
+
